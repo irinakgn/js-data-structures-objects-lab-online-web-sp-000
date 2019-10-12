@@ -1,8 +1,10 @@
 // Write your solution in this file!
+
+drivers = {
+  key: driver
+};
 function updateDriverWithKeyAndValue(driver,key,value){
-  drivers = {
-    key: driver
-  };
+
 }
 function destructivelyUpdateDriverWithKeyAndValue(){
 
