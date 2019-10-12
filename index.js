@@ -15,7 +15,8 @@ function destructivelyUpdateDriverWithKeyAndValue(obj,key,value){
 
 }
 
-function deleteFromDriverByKey(){
+function deleteFromDriverByKey(driver,key){
+  delete driver.key
 
 }
 
